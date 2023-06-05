@@ -1,0 +1,133 @@
+/* Titulo */
+
+#titulo {
+    background-color: #209bde;
+    text-align: center;
+}
+
+#titulo h1 {
+    font-size: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 15px 0;
+    border-bottom: 2px solid white;
+}
+
+
+/* Contenido */
+
+#contenido {
+    display: flex;
+    position: relative;
+}
+
+
+/* Capa Perro */
+
+#perro {
+    width: 840px;
+    height: 775px;
+    background-image: radial-gradient(circle at 50% -20.71%, #e2fcf0 0, #d3f6ea 10%, #c2efe4 20%, #afe8df 30%, #9ae0db 40%, #81d7d7 50%, #66ced4 60%, #47c5d4 70%, #1abdd4 80%, #00b5d5 90%, #00aed7 100%);
+    position: relative;
+    margin: 15px 30px;
+    border-radius: 15px;
+    border: 4px solid #656a6d;
+}
+
+
+/* GUIA */
+
+#guia {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    margin-top: 10px;
+    margin-right: 20px;
+    border: 2px solid rgb(82, 34, 12);
+    border-radius: 5px;
+    box-shadow: 0 0 4px black;
+    padding: 6px;
+    background-color: rgba(214, 134, 29, 0.8);
+}
+
+#guia p {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+
+/* Enfermedades */
+
+#enfermedades {
+    position: relative;
+    border: 4px solid #209bde;
+    margin: 10px 0;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(48, 141, 218);
+}
+
+#enfermedades h1 {
+    text-align: center;
+    margin: 15px;
+    color: #666;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Capa informacion */
+
+#informacionPerro {
+    width: 840px;
+}
+
+#informacionPerro>div {
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#informacionPerro>div h2 {
+    text-align: center;
+    color: #209bde;
+}
+
+#informacionPerro>div p {
+    text-align: justify;
+    color: #333;
+    line-height: 1.4;
+    font-size: 1.3em;
+    margin: 3px 20px;
+    border-top: 1px solid gray;
+    padding-top: 15px;
+}
+
+
+/* Paginas */
+
+#paginas {
+    display: none;
+    justify-content: center;
+    position: absolute;
+    bottom: 10%;
+}
+
+#paginas i {
+    font-size: 2.1em;
+    color: #209bde;
+    margin: 0 15px;
+    transition: 0.5s;
+}
+
+#paginas i:hover {
+    color: orange;
+}
+
+#paginaActual,
+#paginaTotal,
+#divisor {
+    font-size: 2.1em;
+    color: #666;
+}

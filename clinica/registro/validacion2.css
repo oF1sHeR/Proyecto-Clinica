@@ -1,0 +1,14 @@
+#mensajeInformativo {
+    background-image: radial-gradient(circle, #b1e1eb, #98ddeb, #7cd8eb, #58d4eb, #12cfeb);
+}
+
+#mensajeInformativo h1 {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background-color: #209bde;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 25px;
+    color: white;
+}

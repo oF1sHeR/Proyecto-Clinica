@@ -1,0 +1,137 @@
+body {
+    background-image: radial-gradient(circle, #dceeff, #cee9ff, #bee5ff, #ade0ff, #9adcff, #8bd8ff, #7bd4ff, #69d0ff, #59cbff, #48c6ff, #31c1ff, #00bcff);
+}
+
+#capaTabla {
+    background-color: rgba(240, 248, 255, 0.75);
+    width: 30%;
+    margin: auto;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    border: 3px solid #209bde;
+    box-shadow: 0 0 4px black;
+}
+
+#capaTabla table {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption {
+    color: #777777;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+table {
+    border: 2px solid transparent;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+
+/*Cabecera tabla*/
+
+thead {
+    border-radius: 15px;
+    background-color: rgb(53, 58, 122);
+    color: white;
+}
+
+
+/*Filas impares y pares*/
+
+tbody tr:nth-child(even) {
+    background-color: #DDD;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #AAA;
+    color: white;
+}
+
+th {
+    padding: 10px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+td {
+    padding: 10px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+
+/* Capa Nota */
+
+#nota {
+    padding: 10px 10px 0 10px;
+}
+
+#nota p {
+    line-height: 1.2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Mensaje de loguearse*/
+
+.mensaje {
+    margin: auto;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mensaje div {
+    width: 40%;
+    position: relative;
+    text-align: center;
+    background-color: rgba(49, 201, 247, 0.95);
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 15px 0;
+}
+
+.mensaje p {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+.mensaje a {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: 0.25s;
+}
+
+.mensaje a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+/* Mensaje de cita */
+
+#capaGeneral {
+    text-align: center;
+    position: relative;
+}
+
+#capaGeneral>div {
+    width: 40%;
+    background-color: rgba(49, 201, 247, 0.95);
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#capaGeneral h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}

@@ -1,0 +1,138 @@
+body {
+    background-image: linear-gradient( 90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%), url("/clinica/imagenes/contacto.jpg");
+}
+
+#capaForm {
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+/* Informacion */
+
+#info {
+    width: 500px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: rgba(32, 155, 222, 0.9);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    box-shadow: 0 0 10px black;
+}
+
+#info h1 {
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    color: white;
+}
+
+#info p {
+    text-align: justify;
+    color: white;
+    line-height: 1.4;
+}
+
+
+/*Formulario.*/
+
+form {
+    background: rgba(111, 193, 238, 0.6);
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 5px black;
+}
+
+form h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.elemento {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: white;
+    padding-left: 5px;
+}
+
+input,
+textarea {
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    border: 2px solid transparent;
+    background: #3498DB;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 0.25s;
+    display: block;
+    width: 270px;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980B9;
+    cursor: pointer;
+}
+
+
+/* Titulo mapa */
+
+#capaTextoMapa {
+    text-align: center;
+    background-color: #209bde;
+    padding: 15px;
+}
+
+#capaTextoMapa h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* MAPA GOOGLE CHROME */
+
+#capaMapa {
+    background-color: white;
+}
+
+#mapa {
+    width: 100%;
+    display: block;
+    border-radius: 3px 3px 0 0;
+    margin: auto;
+}
+
+
+/* Cuadro */
+
+#cuadro {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 5px;
+}

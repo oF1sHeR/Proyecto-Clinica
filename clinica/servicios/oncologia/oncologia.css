@@ -1,0 +1,90 @@
+#titulo {
+    background-color: #209bde;
+    text-align: center;
+}
+
+#titulo h1 {
+    font-size: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 15px 0;
+    border-bottom: 2px solid white;
+}
+
+#capa1 {
+    display: flex;
+    position: relative;
+    padding-left: 15%;
+}
+
+
+/* Texto  */
+
+#capaTexto {
+    display: none;
+    width: 40%;
+}
+
+#capaTexto p {
+    margin: 15px 25px;
+}
+
+#capaTexto p {
+    text-align: justify;
+    font-size: 1.4em;
+    color: #333;
+}
+
+#capaTexto li {
+    font-size: 1.4em;
+    color: #333;
+    padding: 5px 25px;
+}
+
+
+/* Imagen */
+
+#capaImagen {
+    margin-left: 1%;
+    padding: 15px;
+    display: none;
+}
+
+
+/* Linea vertical */
+
+#capaVertical {
+    border-right: 3px solid #888;
+    position: absolute;
+    height: 90%;
+    top: 5%;
+}
+
+
+/* capa2 */
+
+#capa2 {
+    display: none;
+}
+
+#capa2>div {
+    width: 100%;
+}
+
+#capa2>div div {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    font-size: 1em;
+    padding: 30px;
+}
+
+#capa2 h2 {
+    text-shadow: 0 0 1px black;
+    border-left: 4px solid #209bde;
+    padding: 0px 10px 5px 10px;
+}
+
+#capa2 ul {
+    padding-left: 15px;
+}

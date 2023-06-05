@@ -1,0 +1,57 @@
+/* Titulo */
+
+#titulo {
+    background-color: #209bde;
+    text-align: center;
+}
+
+#titulo h1 {
+    font-size: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 15px 0;
+    border-bottom: 2px solid white;
+}
+
+
+/* Contenido */
+
+#contenido {
+    width: 60%;
+    margin: auto;
+    color: #666;
+    line-height: 1.4;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+}
+
+#contenido>div {
+    border-top: 4px solid #209bde;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+
+/* Primer nivel */
+
+#contenido>div:first-child {
+    display: flex;
+}
+
+#contenido>div:first-child>div:first-child {
+    margin: 10px 0;
+}
+
+#contenido>div:first-child img {
+    width: 602px;
+    height: 386px;
+    margin: 10px 30px;
+}
+
+
+/* Segundo nivel */
+
+#contenido ul {
+    padding-left: 25px;
+}

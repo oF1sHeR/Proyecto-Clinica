@@ -1,0 +1,39 @@
+/* Titulo */
+
+#titulo {
+    background-color: #209bde;
+    text-align: center;
+}
+
+#titulo h1 {
+    font-size: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 15px 0;
+    border-bottom: 2px solid white;
+}
+
+
+/* Contenido */
+
+#contenido {
+    width: 60%;
+    margin: 25px auto;
+    line-height: 1.4;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 1.2em;
+    color: #666;
+    display: none;
+}
+
+#contenido>div:first-child {
+    display: flex;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 4px solid #209bde;
+}
+
+#contenido img {
+    margin-left: 20px;
+}

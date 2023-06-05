@@ -1,0 +1,88 @@
+#contenido {
+    margin: auto;
+    width: 70%;
+}
+
+
+/* Titulo */
+
+#titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #166c9b;
+    padding: 15px 0;
+}
+
+#titulo>h1 {
+    color: white;
+}
+
+
+/* Cada Veterinario */
+
+.veterinario {
+    position: relative;
+    width: 243px;
+    margin: 15px;
+    background-color: #209bde;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0px 5px 5px black;
+    display: flex;
+}
+
+.nombre {
+    font-weight: 500;
+    font-size: 1.3em;
+    margin: auto;
+    text-align: center;
+    transition: 0.25s;
+    padding-top: 3px;
+}
+
+.nombre:hover {
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.datos {
+    display: none;
+    position: absolute;
+    width: 300px;
+    left: 250px;
+    background-color: #209bde;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    z-index: 4;
+    margin-left: 5px;
+    padding: 4px 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    box-shadow: 0 0 3px black;
+}
+
+.datos h5 {
+    font-size: 1.5em;
+    border-bottom: 2px solid white;
+    margin-bottom: 5px;
+}
+
+.descripcion {
+    text-align: justify;
+    padding: 4px 10px;
+}
+
+
+/* Imagen */
+
+.imagen {
+    position: relative;
+    width: 243px;
+}
+
+.imagen img {
+    display: block;
+    width: 243px;
+    height: 340px;
+}

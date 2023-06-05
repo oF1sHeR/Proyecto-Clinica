@@ -1,0 +1,115 @@
+#capaGeneral {
+    display: block;
+    position: relative;
+    background-image: radial-gradient(circle, #b1e1eb, #98ddeb, #7cd8eb, #58d4eb, #12cfeb);
+}
+
+
+/*Formulario.*/
+
+form {
+    width: 550px;
+    border: 3px solid #209bde;
+    border-radius: 7px;
+    margin: auto;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+label {
+    display: inline-block;
+    width: 220px;
+    font-size: 20px;
+    text-align: right;
+}
+
+input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 280px;
+    transition: border .5s;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    border: 2px solid transparent;
+    background: #3498DB;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    transition: 0.25s;
+    display: block;
+    width: 370px;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980B9;
+    cursor: pointer;
+}
+
+
+/*Capa para irse a login*/
+
+#miembro {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#miembro span {
+    font-style: italic;
+}
+
+#miembro a {
+    color: #05807d;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.25s;
+}
+
+#miembro a:hover {
+    border-bottom: 1px solid #05807d;
+}
+
+
+/*Titulo*/
+
+form h1 {
+    margin: auto;
+    text-align: center;
+    color: #777777;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-shadow: 0 0 2px #999;
+    border-bottom: 2px solid #DDD;
+    padding-bottom: 5px;
+}
+
+
+/* Cuadro */
+
+#cuadro {
+    color: #333;
+    border: 2px dotted #818181;
+    width: 50%;
+    margin: auto;
+    visibility: hidden;
+    margin-top: 25px;
+    text-align: center;
+    padding: 10px 0;
+}

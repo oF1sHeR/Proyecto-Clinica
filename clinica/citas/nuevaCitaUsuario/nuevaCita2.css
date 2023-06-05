@@ -1,0 +1,136 @@
+/* Capa Padre */
+
+body {
+    background-image: radial-gradient(circle, #dceeff, #cee9ff, #bee5ff, #ade0ff, #9adcff, #8bd8ff, #7bd4ff, #69d0ff, #59cbff, #48c6ff, #31c1ff, #00bcff);
+}
+
+#capaPadre {
+    position: relative;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+
+/*Capa Informacion*/
+
+#info {
+    width: 550px;
+    border: 3px solid #209bde;
+    border-radius: 7px;
+    margin: auto;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 3px black;
+}
+
+#info p {
+    text-align: justify;
+}
+
+#info h1 {
+    text-align: center;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+
+/*Formulario*/
+
+form {
+    width: 550px;
+    border: 3px solid #209bde;
+    border-radius: 7px;
+    margin: auto;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    box-shadow: 0 0 3px black;
+    margin-top: 25px;
+}
+
+form h1 {
+    text-align: center;
+    color: #777777;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.elemento {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 5px 5px;
+    transition: border .5s;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    border: 2px solid transparent;
+    background: #3498DB;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 270px;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980B9;
+    cursor: pointer;
+}
+
+
+/* Mensaje */
+
+.mensaje {
+    margin: auto;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mensaje div {
+    width: 40%;
+    position: relative;
+    text-align: center;
+    background-color: rgba(49, 201, 247, 0.95);
+    padding: 15px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.mensaje p {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+.mensaje a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    font-style: italic;
+    border-bottom: 2px solid transparent;
+    transition: 0.25s;
+}
+
+.mensaje a:hover {
+    border-bottom: 2px solid white;
+}

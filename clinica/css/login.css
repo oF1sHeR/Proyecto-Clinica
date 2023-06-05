@@ -1,0 +1,121 @@
+body {
+    background-image: radial-gradient(circle, #12cfeb, #58d4eb, #7cd8eb, #98ddeb, #b1e1eb);
+}
+
+#capaGeneral {
+    display: block;
+    position: relative;
+}
+
+
+/*Formulario.*/
+
+form {
+    width: 450px;
+    border: 3px solid #209bde;
+    border-radius: 7px;
+    margin: auto;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    box-shadow: 0 0 3px #333;
+}
+
+.elemento {
+    width: 80%;
+    margin: auto;
+}
+
+input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 280px;
+    transition: border .5s;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    border: 2px solid transparent;
+    background: #3498DB;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 270px;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980B9;
+    cursor: pointer;
+}
+
+i {
+    width: 16px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 6px;
+    text-align: center;
+}
+
+
+/*Titulo*/
+
+h1 {
+    margin: auto;
+    text-align: center;
+    color: #777777;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+/*Cuadro de texto informativo*/
+
+#cuadro p {
+    font-size: 1.2em;
+    color: #333;
+    font-style: italic;
+    padding: 3px 7px;
+    text-align: center;
+}
+
+
+/*Has olvidado la contraseña*/
+
+.enlaces {
+    background-color: #f6f6f6;
+    border-top: 1px solid #dce8f1;
+    padding: 25px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.enlaces a {
+    color: #92badd;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.3em;
+    transition: 0.5s;
+}
+
+.enlaces a:hover {
+    color: #2980B9;
+}

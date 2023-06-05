@@ -1,0 +1,50 @@
+/* Titulo */
+
+#titulo {
+    background-color: #209bde;
+    text-align: center;
+}
+
+#titulo h1 {
+    font-size: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 15px 0;
+    border-bottom: 2px solid white;
+}
+
+
+/* Contenido */
+
+#contenido {
+    width: 60%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    line-height: 1.4;
+    display: none;
+}
+
+#contenido>div {
+    margin: 25px auto;
+    padding-top: 25px;
+    border-top: 3px solid #209bde;
+}
+
+
+/* Primer nivel */
+
+#contenido>div:first-child {
+    display: flex;
+    margin: 25px;
+    padding-top: 15px;
+}
+
+#contenido>div:nth-child(2)>div {
+    display: flex;
+    margin: 25px;
+}
+
+img {
+    padding: 3px 10px;
+}

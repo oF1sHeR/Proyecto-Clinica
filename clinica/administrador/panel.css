@@ -1,0 +1,80 @@
+body {
+    background-image: radial-gradient(circle, #b1e1eb, #98ddeb, #7cd8eb, #58d4eb, #12cfeb);
+}
+
+#capaGeneral h1 {
+    text-align: center;
+    margin: 15px 0;
+    color: #333;
+    text-shadow: 0px 0px 1px black;
+}
+
+
+/* Menú */
+
+#menu {
+    border: 2px solid black;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 0 5px;
+    background-color: white;
+}
+
+#menu h3 {
+    font-size: 1.6em;
+    text-align: center;
+    color: #666;
+    border-bottom: 2px solid #666;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu li {
+    padding: 5px 10px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #05807d;
+    font-weight: bold;
+    font-size: 1.3em;
+    display: block;
+    transition: 0.2s;
+}
+
+#menu li a:hover {
+    background-color: #055755;
+    color: #0bc5c2;
+}
+
+
+/* Mensaje */
+
+.mensaje {
+    margin: auto;
+    position: relative;
+}
+
+.mensaje div {
+    width: 40%;
+    position: relative;
+    text-align: center;
+    background-color: rgba(49, 201, 247, 0.95);
+    padding: 15px 0;
+}
+
+.mensaje h1 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+.mensaje a {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+}

@@ -1,0 +1,86 @@
+body {
+    background-image: radial-gradient(circle, #b1e1eb, #98ddeb, #7cd8eb, #58d4eb, #12cfeb);
+}
+
+
+/* Formulario */
+
+form {
+    width: 550px;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: auto;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(210, 235, 255);
+    box-shadow: 0 0 6px #333;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    font-size: 20px;
+    text-align: right;
+}
+
+input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 280px;
+    transition: border .5s;
+}
+
+
+/* Submit */
+
+input[type="submit"] {
+    border: 2px solid transparent;
+    background: #3498DB;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 270px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980B9;
+    cursor: pointer;
+}
+
+
+/* Título */
+
+form h1 {
+    margin: auto;
+    text-align: center;
+    color: #777777;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+form p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+
+/* Cuadro */
+
+#cuadro {
+    text-align: center;
+    padding: 25px;
+}

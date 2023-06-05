@@ -1,0 +1,130 @@
+#pieDePagina {
+    border-top: 1px solid lightgray;
+    background-color: #209bde;
+    height: 195px;
+    width: 100%;
+}
+
+#primeraCapa {
+    padding-left: 5%;
+    padding-top: 1%;
+    display: flex;
+}
+
+#primeraCapa a {
+    padding: 3px;
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+#logoPie,
+#menuNavegacion,
+#informacion,
+#horario {
+    width: 22%;
+}
+
+
+/* Logotipo */
+
+#logoPie div:nth-child(2) span {
+    color: white;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#elementos ul {
+    list-style-type: none;
+}
+
+#elementos ul li {
+    display: inline-block;
+    padding-left: 15px;
+    color: white;
+}
+
+
+/* Horario */
+
+#horario h5 {
+    margin: 0px;
+    color: white;
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+#horario ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#horario ul li {
+    padding-bottom: 5px;
+}
+
+#horario ul li span {
+    padding: 3px;
+    color: white;
+    font-size: 1.1em;
+}
+
+
+/* Informacion */
+
+#informacion {
+    padding-left: 85px;
+}
+
+#informacion h5 {
+    margin: 0px;
+    color: white;
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+#informacion ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#informacion ul li {
+    padding-bottom: 5px;
+}
+
+#informacion ul li span {
+    padding: 3px;
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+
+/* menu navegacion */
+
+#menuNavegacion ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menuNavegacion ul li {
+    padding: 5px;
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*Copyright*/
+
+#copy {
+    clear: both;
+    width: 20%;
+    margin: auto;
+}
+
+#copy span {
+    color: white;
+    font-size: 1em;
+}

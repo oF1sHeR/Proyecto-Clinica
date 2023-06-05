@@ -1,0 +1,174 @@
+/* --------------------- CABECERA --------------------- */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabecera {
+    background-color: white;
+    width: 100%;
+    z-index: 3;
+    border-bottom: 1px solid #209bde;
+}
+
+
+/* Primera parte*/
+
+#cabecera>div:first-child {
+    background-color: #209bde;
+}
+
+#cabecera>div:first-child ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: right;
+}
+
+#cabecera>div:first-child ul li {
+    display: inline;
+}
+
+#cabecera>div:first-child ul li a {
+    border: 1px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    transition: 0.25s;
+}
+
+#cabecera>div:first-child ul li a:hover {
+    color: #BBB;
+}
+
+#cabecera>div:first-child span {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+}
+
+
+/*Segunda parte */
+
+#segundo {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+}
+
+
+/*Logotipo*/
+
+#segundo>div:first-child {
+    margin-left: 40px;
+}
+
+#logotipo {
+    display: block;
+    width: 20%;
+    padding-top: 5px;
+}
+
+#despuesDeLogotipo {
+    display: inline-block;
+    width: 76%;
+    padding-left: 15%;
+}
+
+
+/*Secciones */
+
+#secciones {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+}
+
+#secciones>li {
+    padding: 0 20px;
+    padding-top: 15px;
+}
+
+
+/* Menu normal de la lista de menús.*/
+
+#secciones>li>a {
+    border: 2px solid transparent;
+    display: block;
+    text-decoration: none;
+    font-size: 1.7em;
+    font-weight: 700;
+    text-align: center;
+    color: #666;
+    transition: 0.25s;
+}
+
+
+/* Aqui cambia el texto de cada elemento de nivel 1 del menu */
+
+#secciones>li>a:hover {
+    color: #555;
+    border-bottom: 2px solid #555;
+}
+
+
+/*LO QUE CAMBIA AQUI ES EL COLOR DE LA FLECHA HACIA ABAJO*/
+
+#secciones>li>a:hover>span {
+    color: #555;
+}
+
+
+/*Menus que tienen desplegables dentro. Tienen posicion relativa para colo*/
+
+
+/*simbolo de flecha hacia abajo*/
+
+.menuDesplegable a span {
+    color: #666;
+    font-size: 1em;
+    padding-left: 5px;
+}
+
+.menuDesplegable>a:hover {
+    cursor: pointer;
+}
+
+
+/*Desplegables*/
+
+.desplegado {
+    display: none;
+    list-style-type: none;
+    z-index: 3;
+    position: absolute;
+    background-color: white;
+    border-bottom: 2px solid #333;
+    transition: 0.25s;
+}
+
+.desplegado li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #666;
+    padding: 5px 10px;
+}
+
+.desplegado li a:hover {
+    color: #333;
+    cursor: pointer;
+}
+
+.desplegado:hover {
+    display: block;
+}
+
+.menuDesplegable>a:hover~.desplegado {
+    display: block;
+}
+
+#prueba {
+    column-count: 2;
+}
